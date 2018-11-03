@@ -11,8 +11,8 @@ body {
 	background-size: cover;
 	object-fit: cover;
 	background-position: center;
-    color: white;
-    font-family: Open Sans, Myriad Pro;
+    	color: white;
+	font-family: Open Sans, Myriad Pro; 
 }
 .ToggleSecction{
 	height: calc(100vh - 50px);
@@ -26,8 +26,8 @@ body {
 	text-align: center;
 }
 .wrap {
-    width: 100%;
-    margin: auto;
+    	width: 100%;
+    	margin: auto;
 }
 h2{
 	font-size: 60px;
@@ -79,7 +79,7 @@ a:hover {
 .btn-toggle:hover{
 	background: #ffdc00;
 	text-decoration: none;
-	color: grey;
+	color: gray;
 }
 .btn-toggle2{
 	width: 100%;
@@ -301,3 +301,4 @@ footer{
 		font-size: 18px;
 	}
 }
+

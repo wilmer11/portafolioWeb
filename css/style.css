@@ -12,7 +12,7 @@ body {
 	object-fit: cover;
 	background-position: center;
     color: white;
-    font-family: Open Sans, Myriad Pro;
+	font-family: Open Sans, Myriad Pro; 
 }
 .ToggleSecction{
 	height: calc(100vh - 50px);
@@ -114,7 +114,7 @@ a:hover {
 .contenedor .contenedor-seccion .contenido-art{
 	margin: auto 40px;
 	text-align: justify;
-	font-size: 22px;
+	font-size: 20px;
 }
 .parrafo-art{
 	margin-bottom: 30px;
@@ -218,7 +218,7 @@ footer{
 	font-size: 20px;
 }
 /* media queries */
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1132px){
 	.contenedor .contenedor-seccion .contenido-art{
 		font-size: 18px;
 	}
@@ -226,15 +226,18 @@ footer{
 		font-size: 24px;
 	}
 	.contenedor .contenedor-aside .parrafo-perfil{
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
-@media screen and (max-width: 976px){
-	.contenedor .contenedor-seccion .parrafo-art{
-		padding: 30px;
+@media screen and (max-width: 1028px){
+	.contenedor .contenedor-seccion .contenido-art{
+		font-size: 16px;
+	}
+	h3{
+		font-size: 20px;
 	}
 	.contenedor .contenedor-aside .parrafo-perfil{
-		padding: 30px;	
+		font-size: 15px;
 	}
 }
 @media screen and (max-width: 890px){
@@ -291,4 +294,8 @@ footer{
 	.contenedor .contenedor-aside .parrafo-perfil{
 		font-size: 16px;
 	}
+	.footer .parrafo-footer{
+		font-size: 18px;
+	}
 }
+

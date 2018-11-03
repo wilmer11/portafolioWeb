@@ -2,7 +2,7 @@
 var a = document.getElementById('btn-toggle');
 function menus(){
     var desplazamiento = window.pageYOffset;
-    if(desplazamiento <= 40){
+    if(desplazamiento <= 100){
         a.classList.remove('btn-toggle2');
         a.className = ('btn-toggle');
         a.style.transition = '1s';

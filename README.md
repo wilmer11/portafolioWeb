@@ -6,7 +6,7 @@ Es un proyecto personal para dar a conocer los servicios de desarrollo web del c
 
 ### Version
 
-1.0.0
+1.0.1
 
 ### Realizado 
 

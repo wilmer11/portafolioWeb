@@ -14,6 +14,21 @@ body {
     	color: white;
 	font-family: Open Sans, Myriad Pro; 
 }
+/* Preload */
+.hidden{
+	overflow: hidden;
+}
+.centrado{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: #000;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .ToggleSecction{
 	height: calc(100vh - 50px);
 	background: url('../images/fondo.jpg') no-repeat;

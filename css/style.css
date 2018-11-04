@@ -22,7 +22,7 @@ body {
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: #000;
+	background: #fff;
 	z-index: 100;
 	display: flex;
 	justify-content: center;

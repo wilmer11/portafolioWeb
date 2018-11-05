@@ -9,9 +9,10 @@ body {
    	background: url('../images/escritorio.jpg') no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	object-fit: cover;
+	background-attachment: fixed;
 	background-position: center;
-    	color: white;
+	object-fit: cover;
+    color: white;
 	font-family: Open Sans, Myriad Pro; 
 }
 /* Preload */

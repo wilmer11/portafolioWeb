@@ -9,27 +9,11 @@ body {
    	background: url('../images/escritorio.jpg') no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
 	object-fit: cover;
+	background-position: center;
     color: white;
 	font-family: Open Sans, Myriad Pro; 
 }
-/* Preload */
-.hidden{
-	overflow: hidden;
-}
-.centrado{
-	position: fixed;
-	width: 100vw;
-	height: 100vh;
-	background: #fff;
-	z-index: 100;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .ToggleSecction{
 	height: calc(100vh - 50px);
 	background: url('../images/fondo.jpg') no-repeat;
@@ -42,8 +26,8 @@ body {
 	text-align: center;
 }
 .wrap {
-    	width: 100%;
-    	margin: auto;
+    width: 100%;
+    margin: auto;
 }
 h2{
 	font-size: 60px;
@@ -93,9 +77,9 @@ a:hover {
 	text-align: center;
 }
 .btn-toggle:hover{
-	background: #ffdc00;
 	text-decoration: none;
-	color: gray;
+	background: #ffdc00;
+	color: grey;
 }
 .btn-toggle2{
 	width: 100%;
@@ -113,8 +97,8 @@ a:hover {
 }
 .btn-toggle2:hover{
 	background: #ffdc00;
+	color: grey;
 	text-decoration: none;
-	color: gray;
 }
 /* contenedor */
 .contenedor{
@@ -126,12 +110,10 @@ a:hover {
 }
 /* articulo */
 .contenedor .contenedor-seccion{
-	justify-content: right;
-	max-width: 100%;
-	width: 70%;
+	flex-basis: 70%;
 }
 .contenedor .contenedor-seccion .contenido-art{
-	margin: auto 40px;
+	margin: auto 30px;
 	text-align: justify;
 	font-size: 20px;
 }
@@ -144,13 +126,10 @@ a:hover {
 }
 /* aside */
 .contenedor .contenedor-aside{
-	align-items: center;
-	justify-content: left;
-	max-width: 100%;
-	width: 30%;
+	flex-basis: 30%;
 }
 .contenedor .contenedor-aside .contenido-perfil{
-	margin: auto 40px;
+	margin: auto 30px;
 	height: 100%;
 	text-align: center;
 }
@@ -160,7 +139,7 @@ a:hover {
 	margin-bottom: 20px;
 }
 .circulo{
-	margin: 15px;
+	margin: 15px auto;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -259,42 +238,41 @@ footer{
 		font-size: 15px;
 	}
 }
-@media screen and (max-width: 890px){
+@media screen and (max-width: 860px){
+	h2{
+		font-size: 40px;
+	}
+	.contenedor .contenedor-seccion{
+		margin: auto 10px;
+	}
+	.contenedor .contenedor-aside {
+		margin: auto 10px;
+	}
+}
+@media screen and (max-width: 720px){
 	.contenedor{
 		display: flex;
 		flex-flow: row wrap;
 		align-items: center;
 	}
 	.contenedor .contenedor-seccion{
-		width: 100%;
-		justify-content: center;
-		margin: auto 0;
-		padding: 0;
+		justify-content: center;			
+		flex-basis: 100%;
+		margin: 0;
 	}
 	.contenedor .contenedor-aside {
-		width: 100%;
-		justify-content: center;
-		margin: auto 0;
-		padding: 0;
+		justify-content: center;	
+		flex-basis: 100%;
+		margin: 0;
 	}
-	.contenedor .contenedor-seccion .contenido-art{
-		font-size: 20px;
+		.contenedor .contenedor-seccion .contenido-art{
+		font-size: 18px;
 	}
 	h3{
-		font-size: 28px;
+		font-size: 20px;
 	}
 	.contenedor .contenedor-aside .parrafo-perfil{
 		font-size: 18px;
-	}
-}
-@media screen and (max-width: 800px){
-	h2{
-		font-size: 40px;
-	}
-}
-@media screen and (max-width: 500px) {
-	.ToggleSecction h2{
-		margin-top: 0;
 	}
 }
 @media screen and (max-height: 550px) {
@@ -317,4 +295,3 @@ footer{
 		font-size: 18px;
 	}
 }
-

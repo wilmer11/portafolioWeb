@@ -100,6 +100,20 @@ a:hover {
 	color: grey;
 	text-decoration: none;
 }
+/* Preload */
+.hidden{
+	overflow: hidden;
+}
+.centrado{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+	z-index: 2000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 /* contenedor */
 .contenedor{
 	width: 100%;
